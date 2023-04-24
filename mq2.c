@@ -21,7 +21,9 @@ int main()
     msgid = msgget(key, 0666 | IPC_CREAT);
   
     // msgrcv to receive message
-    msgrcv(msgid, &message, sizeof(message), 1, 0);
+    msgrcv(msgid, &message, sizeof(message), 1, 0); //The third parameter is for the message_type that we have set to 1 when creating the sender of the message queue 
+  
+  
   
     // display the message
     printf("Data Received is : %s \n",message.mesg_text);
