@@ -2,4 +2,6 @@ fcfs.c
 for.sh
 if.sh
 while.sh
-rr.c - Round Robin
+rr.c -> Round Robin
+pipes1.c -> Pipes lab First Program
+pipes3.c -> Pipes lab Third Program mkfifo()
