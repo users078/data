@@ -6,4 +6,4 @@ rr.c -> Round Robin
 pipes1.c -> Pipes lab First Program
 pipes2.c -> ls -l Program
 pipes3.c -> Pipes lab Third Program mkfifo()
-mq1 -> Message Queue Sender
+mq1.c -> Message Queue Sender
