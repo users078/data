@@ -1,4 +1,4 @@
-fcfc.c
+fcfs.c
 for.sh
 if.sh
 while.sh
