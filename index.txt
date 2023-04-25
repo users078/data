@@ -14,3 +14,10 @@ mq2.c -> Message Queue Reciever
 dp.c -> dining philosphers
 sem.c -> semaphore 
 semaDet.c -> Detailed Semaphore
+
+use gcc -filename-.c 
+use gcc -filename-.c -lpthread -> For threads
+./a.out
+
+chmod +x -filename-.sh
+./filename.sh
