@@ -16,6 +16,7 @@ dpDetail.c -> detailed philosphers
 sem.c -> semaphore 
 semaDet.c -> Detailed Semaphore
 rw.c -> Reader Writer
+rwDetailed.c -> Reader Writer Detailed
 shmw.cpp -> shared writer
 shmr.cpp -> shared reader
 
