@@ -12,6 +12,7 @@ pipes3.c -> Pipes lab Third Program mkfifo()
 mq1.c -> Message Queue Sender
 mq2.c -> Message Queue Reciever
 dp.c -> dining philosphers
+dpDetail.c -> detailed philosphers
 sem.c -> semaphore 
 semaDet.c -> Detailed Semaphore
 
