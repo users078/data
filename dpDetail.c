@@ -43,7 +43,7 @@ void * philos(void * n)
     sleep(2);   // Current theread will sleep and another thread will get a chance to execute
     printf("Philosopher %d has finished eating\n",ph);
     
-    sem_post(&chopstick[(ph+1)/5]); //sets the value of right chopstick semaphore variable back to '1'
+    sem_post(&chopstick[(ph+1)%5]); //sets the value of right chopstick semaphore variable back to '1'
     printf("Philosopher %d leaves the right chopstick\n",ph);
     sem_post(&chopstick[ph]);   // sets the value of left chopstick semaphore variable back to '1'
      printf("Philosopher %d leaves the left chopstick\n",ph);
