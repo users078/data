@@ -43,7 +43,7 @@ void * philos(void * n)
     sleep(2);
     printf("Philosopher %d has finished eating\n",ph);
     
-    sem_post(&chopstick[(ph+1)/5]);
+    sem_post(&chopstick[(ph+1)%5]);
     printf("Philosopher %d leaves the right chopstick\n",ph);
     sem_post(&chopstick[ph]);
      printf("Philosopher %d leaves the left chopstick\n",ph);
