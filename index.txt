@@ -12,3 +12,4 @@ mq1.c -> Message Queue Sender
 mq2.c -> Message Queue Reciever
 dp.c -> dining philosphers
 sem.c -> semaphore 
+semaDet.c -> Detailed Semaphore
