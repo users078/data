@@ -15,6 +15,7 @@ dp.c -> dining philosphers
 dpDetail.c -> detailed philosphers
 sem.c -> semaphore 
 semaDet.c -> Detailed Semaphore
+rw.c -> Reader Writer
 
 use gcc -filename-.c 
 use gcc -filename-.c -lpthread -> For threads
