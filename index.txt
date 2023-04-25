@@ -1,4 +1,5 @@
-process-creation.c
+processCreation.c
+processCreationwaitexit.c
 cfpi.cpp -> Child Factorial and Parent Individual Sum
 fcfs.c
 for.sh
