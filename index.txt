@@ -16,6 +16,8 @@ dpDetail.c -> detailed philosphers
 sem.c -> semaphore 
 semaDet.c -> Detailed Semaphore
 rw.c -> Reader Writer
+shmw.cpp -> shared writer
+shmr.cpp -> shared reader
 
 use gcc -filename-.c 
 use gcc -filename-.c -lpthread -> For threads
