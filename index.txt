@@ -38,5 +38,7 @@ press 'i' for insert
 press 'esc' for getting out of insert mode
 type ':wq' to save and exit
 
+for git download use 'wb'
+
 chmod +x -filename-.sh
 ./filename.sh
