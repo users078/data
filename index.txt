@@ -24,5 +24,19 @@ use gcc -filename-.c
 use gcc -filename-.c -lpthread -> For threads
 ./a.out
 
+use g++ -filename-.cpp -> For C++ files
+
+
+can use ->
+cat > -filename-  -> To create file
+cat -filename- -> To view file
+
+OR 
+
+vi -filename- -> to create or view or edit file
+press 'i' for insert
+press 'esc' for getting out of insert mode
+type ':wq' to save and exit
+
 chmod +x -filename-.sh
 ./filename.sh
