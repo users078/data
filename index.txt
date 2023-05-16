@@ -19,6 +19,7 @@ rw.c -> Reader Writer
 rwDetailed.c -> Reader Writer Detailed
 shmw.cpp -> shared writer
 shmr.cpp -> shared reader
+mut.c -> Mutual Exclusion
 
 use gcc -filename-.c 
 use gcc -filename-.c -lpthread -> For threads
