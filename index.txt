@@ -21,6 +21,8 @@ shmw.cpp -> shared writer
 shmr.cpp -> shared reader
 mut.c -> Mutual Exclusion
 mutexLock.c -> Mutex Lock
+readersWritersProblem.c -> Reader writer problem
+
 
 use gcc -filename-.c 
 use gcc -filename-.c -lpthread -> For threads
