@@ -22,7 +22,7 @@ shmr.cpp -> shared reader
 mut.c -> Mutual Exclusion
 mutexLock.c -> Mutex Lock
 readersWritersProblem.c -> Reader writer problem
-
+overlays.c -> Overlay concepts and its functions
 
 use gcc -filename-.c 
 use gcc -filename-.c -lpthread -> For threads
